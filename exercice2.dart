@@ -9,5 +9,7 @@ void main() {
   } on FormatException catch (e) {
     print("Erreur : Le format saisi n’est pas valide.");
   }
-
+finally {
+    print("Fin d’opération");
+  }
 }
